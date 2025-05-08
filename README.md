@@ -36,28 +36,38 @@ Encrypt any file on your system using a key and IV. The encrypted file will be s
 <details>
   <summary>Click to expand screenshots</summary>
   
-  ### File Encryption Example
-  
-  #### Original File
-  <img src="images/test_file.png" width="600"/>
-  
-  #### Encrypted File
-  <img src="images/test_file.txt.png" width="600"/>
-  
-  #### Decrypted File
-  <img src="images/test_file_decrypted.png" width="600"/>
-  
   ### Application Interface
   
-  #### Text Decrypt Tab
-  <img src="images/Image_4.png" width="600"/>
+  #### Text Decryption Tab
+  <img src="images/decrypt_tab.png" width="600"/>
   
-  #### Text Encrypt Tab
-  <img src="images/Image_5.png" width="600"/>
+  #### Text Encryption Tab
+  <img src="images/encrypt_tab.png" width="600"/>
   
-  #### File Encryption/Decryption Tab
-  <img src="images/Image_6.png" width="600"/>
+  ### File Encryption Example
   
-  #### File Encryption in Action
-  <img src="images/Image_7.png" width="600"/>
+  #### Step 1: Configure Encryption Settings
+  <img src="images/files_tab_filled.png" width="600"/>
+  
+  Enter a 16-character key and either enter an IV or generate a random one. Select your target file for encryption.
+  
+  #### Step 2: Original File Before Encryption
+  <img src="images/test_file_original.png" width="600"/>
+  
+  The original text file contains readable content: "Python-AES-Cryptography".
+  
+  #### Step 3: Encrypted File Content
+  <img src="images/test_file_encrypted.png" width="600"/>
+  
+  After encryption, the file content becomes unreadable encrypted data.
+  
+  #### Step 4: Decrypted File Result
+  <img src="images/test_file_decrypted.png" width="600"/>
+  
+  After decryption using the same key and IV, the original content is restored: "Python-AES-Cryptography".
+  
+  #### File Management Interface
+  <img src="images/files_tab_empty.png" width="600"/>
+  
+  The file operations tab lets you browse for files to encrypt or decrypt.
 </details>
