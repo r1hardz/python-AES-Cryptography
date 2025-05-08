@@ -66,8 +66,4 @@ Encrypt any file on your system using a key and IV. The encrypted file will be s
   
   After decryption using the same key and IV, the original content is restored: "Python-AES-Cryptography".
   
-  #### File Management Interface
-  <img src="images/files_tab_empty.png" width="600"/>
-  
-  The file operations tab lets you browse for files to encrypt or decrypt.
 </details>
