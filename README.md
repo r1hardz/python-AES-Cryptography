@@ -1,6 +1,6 @@
 # Python-AES-Cryptography
 
-A Python-based tool for AES-CBC encryption and decryption with a modern GUI interface.
+A Python-based tool for AES-CBC encryption and decryption with a easy to use GUI interface.
 
 ## 🛠️ Tech Stack
 * **Python 3**
